@@ -1,6 +1,6 @@
 import hashlib
 import pefile
-from mappings import file_characteristics_mapping, dll_characteristics_mapping
+from mappings import *
 
 
 def get_characteristics(flags, characteristics_mapping):
